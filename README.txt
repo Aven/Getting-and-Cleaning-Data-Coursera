@@ -1,3 +1,26 @@
+The R script run_analysis.R was created for the Coursera course "Getting and cleaning data" to process the dataset that is described below.
+
+Note: the dataset needs to be locally available
+
+- the script loads the training and test sets
+- the sets are merged into 1 data frame 
+- merge test and training sets into 1 data frame
+- add column names to data frame using features.txt
+- add activity column; read test and training activity files, merge them and add them as column
+- change activities column to not be a list
+- make activities column into factors
+- assign labels to factors//appropriately label activities using activity_labels.txt
+- create a subset of the main data set only containing columns with mean and std information from direct measurements and include the activities column
+- add subject numbers column to connect measurements to subjects
+- melt data to make rows for each subject+activity combo
+- melt the data so each column shows the mean of each variable for each subject+activity combo
+- prints tidy data to tidy_data.txt
+
+
+
+
+For further reference, the original README is included below
+
 ==================================================================
 Human Activity Recognition Using Smartphones Dataset
 Version 1.0
